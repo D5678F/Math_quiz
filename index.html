@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Math Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-box">
+    <h1>Math Quiz</h1>
+    <h2 id="score">Score: 0 | Level: School</h2>
+
+    <label for="level">Choose Level:</label>
+    <select id="level">
+      <option value="school">School</option>
+      <option value="college">College</option>
+      <option value="college-advanced">College Advanced</option>
+    </select>
+
+    <div id="question">Loading question...</div>
+    <input type="number" id="answer" placeholder="Your answer">
+    <br>
+    <button id="submit">Submit</button>
+    <div id="feedback"></div>
+    <div id="hint"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
